@@ -1,0 +1,12 @@
+version = 0.1
+
+[default]
+[default.deploy]
+[default.deploy.parameters]
+aws_account_number = "360520317360"
+stack_name = "origin-[SOLUTION_RUN_ID]"
+s3_prefix = "origin-[SOLUTION_RUN_ID]"
+region = "eu-central-1"
+confirm_changeset = false
+capabilities = "CAPABILITY_IAM CAPABILITY_AUTO_EXPAND CAPABILITY_NAMED_IAM"
+disable_rollback = false
